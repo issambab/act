@@ -1,0 +1,53 @@
+body{
+	font-family: 'Open Sans', sans-serif;	
+}
+h1,h2,h3,h5,h6 {
+ 	color: #081a35;	
+}
+.bg-intro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.img-intro{
+    position: relative;
+    text-align: center;
+    top: 2rem;
+}
+.btn-entrer{
+	background: transparent;
+    color: white;
+    border:1px solid white ;
+    border-radius: 10px;
+    padding: 5px 57px;
+}
+.btn-entrer:hover{
+	background: #c01d24;
+    color: white;
+    border:1px solid #c01d24 ;
+    border-radius: 10px;
+    padding: 5px 57px;
+}
+.pos-btn{
+	position: absolute;
+	bottom:5rem;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+@media only screen and (max-width:768px) {
+
+.img-intro{
+	position: relative;
+    text-align: center;
+    top: 2rem;
+}
+
+.pos-para{
+	position: absolute;
+	bottom:0rem;
+	left: 50%;
+	transform: translate(-50%);
+}
+}
